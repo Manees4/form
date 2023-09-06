@@ -1,0 +1,52 @@
+body{
+    background: rgb(171,34,195);
+    background: linear-gradient(0deg, rgba(171,34,195,1) 6%, rgba(172,34,196,1) 15%, rgba(214,47,220,1) 58%, rgba(255,60,244,1) 60%);
+    background-attachment: fixed;
+}
+#form{
+    background-color: aliceblue;
+    padding: 20px;
+    width:400px;
+    margin: 21vh auto 0 auto;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: darkorchid;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+#button{
+    background-color: darkmagenta;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+    font-size: medium;
+    width: 100%;
+    margin: 10px 0px;
+}
+.input input{
+    margin-top: 5px;
+    border:1px solid aqua;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input input:focus{
+    outline: 0;
+}
+.input .error{
+    color: crimson;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input.success input{
+    border-color: forestgreen;
+}
+.input.error input{
+border-color: crimson;
+}
